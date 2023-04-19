@@ -1,0 +1,38 @@
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color:rgb(200, 220, 201);
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(164, 172, 148);
+}
+body{
+    background-color: rgb(43, 226, 168);
+}
+form>h1{
+    text-align: center;
+    color: rgb(120, 136, 136);
+}
+form>div{
+    width: 800px;
+    margin: 10px auto;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="date"],input[type="search"],select{
+    padding: 5px;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+}
+input[type="submit"]{
+    width: 120px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    margin: auto 240px;
+    border: none;
+    background-color: rgb(98, 97, 108); 
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
